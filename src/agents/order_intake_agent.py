@@ -56,8 +56,13 @@ assistant = Agent(
     llm=llm
 )
 
-print("What is the file name?")
-filename = input()
+# print("What is the file name?")
+# filename = input()
+# Assume filename is orderhub_handwritten.jpg
+
+filename = "orderhub_handwritten.jpg"
+print(f"---\nfilename >>> {filename}\n---")
+
 root, extension = os.path.splitext(filename)
 # print(f"File extension: {extension}")
 
