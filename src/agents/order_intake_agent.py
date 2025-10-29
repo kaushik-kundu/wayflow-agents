@@ -14,6 +14,8 @@ import os
 if __name__ == "__main__":
     llm = initialize_llm()
 
+###### Define Wayflow Tools- #########
+
 @tool(description_mode="only_docstring")
 def voice_to_text(query: str) -> str:
     """Tool that is invoked for a audio .mp3 file detailing the order, and returns the tool name.
