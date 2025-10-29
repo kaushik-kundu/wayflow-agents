@@ -3,3 +3,6 @@
 
 # Ignore Config Files
 /config/env
+
+# Ignore Temp Files
+__pycache__/
