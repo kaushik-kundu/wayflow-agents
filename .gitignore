@@ -1,2 +1,5 @@
 # Ignore Python Env Files
 .venv_orderx_hub/
+
+# Ignore Confir Files
+config/env
