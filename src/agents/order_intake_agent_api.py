@@ -11,14 +11,8 @@ from src.system_prompts.order_intake_agent_prompts import prompt_order_intake_ag
 from src.tools.vision_instruct_tools import test_image_to_text
 import os
 from fastapi import FastAPI
-from pydantic import BaseModel
-
-class Item(BaseModel):
-    name: str
 
 app = FastAPI()
-
-#@app.post("/items/")
 
 @app.get("/")
 def order_intake():
