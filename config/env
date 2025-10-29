@@ -6,7 +6,7 @@ CONFIG_PROFILE="DEFAULT"
 AUTH_TYPE="API_KEY"
 
 # ─── OCI credentials - Llama Model --------
-OCI_COMPARTMENT_ID="ocid1.compartment.oc1..aaaaaaaa7witlb6lweky4jh4tcc3fia4csdr4cbcmnyy2h7pqeryfvug4sbq"
+OCI_COMPARTMENT_ID="ocid1.compartment.oc1..aaa"
 OCI_GENAI_ENDPOINT="https://inference.generativeai.us-chicago-1.oci.oraclecloud.com"
 OCI_GENAI_MODEL_ID_VISION="meta.llama-4-maverick-17b-128e-instruct-fp8"
 OCI_GENAI_MODEL_ID="xai.grok-4"
