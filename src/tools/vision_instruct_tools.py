@@ -57,8 +57,7 @@ def test_image_to_text():
     image_path = f"{PROJECT_ROOT}/order_inputs/orderhub_handwritten.jpg"
     question = ("""Get all information about the order such as - 
 BillToCustomer : {}
-ShipToCustomer: {}}
-- Item: {}, Quantity: {}, Requested Date: {}
+OrderItems - Item: {}, Quantity: {}, Requested Date: {}
 """
                 )
     # print(image_path)
